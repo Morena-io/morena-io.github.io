@@ -86,6 +86,11 @@ body {
 
 /** CTA Styling **/
 
+.cta {
+  position: absolute;
+  z-index: 2;
+}
+
 .cta-button {
 	background: #232121;
 	border: none;
@@ -117,10 +122,22 @@ body {
   border-color: #9F2642;
 }
 
-.cta-highlight {
-	color: #9F2642;
+.cta-highlight strong {
+  color: #9F2642;
+	font-style: italic;
 }
 
-.cta-highlight strong {
-	font-style: italic;
+.cta-title {
+  line-height: 36px;
+}
+
+.cta-subtitle {
+  line-height: 28px;
+}
+
+.fullscreen {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
