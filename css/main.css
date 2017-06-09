@@ -1,0 +1,126 @@
+/**
+ * Custom CSS Styling for Morena
+ */
+
+
+/** General Styling **/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #ECE6DE;
+	color: #232121;
+	font-family: 'Roboto', sans-serif;
+}
+
+.text-display-4 {
+	font-size:112px;
+	font-weight:300;
+	letter-spacing:-5px;
+	line-height:128px;
+}
+
+.text-display-3 {
+	font-size:56px;
+	font-weight:400;
+	line-height:64px;
+}
+
+.text-display-2 {
+	font-size:45px;
+	font-weight:400;
+	line-height:48px;
+}
+
+.text-display-1 {
+	font-size:34px;
+	font-weight:400;
+	line-height:52px;
+}
+
+.text-headline {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.text-subhead {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.text-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.text-caption {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.text-menu {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.text-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+
+/** CTA Styling **/
+
+.cta-button {
+	background: #232121;
+	border: none;
+	border-radius: 0;
+	width: 100%;
+}
+
+.cta-company {
+	color: #9F2642;
+	font-family: 'Comfortaa', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+.cta-input {
+	border-radius: 0;
+	width: 100%;
+}
+
+.cta-input.form-control:focus {
+	border-color: #9F2642;
+}
+
+.cta-button:active, .cta-button:hover {
+  color: #fff;
+  background-color: #9F2642;
+  background-image: none;
+  border-color: #9F2642;
+}
+
+.cta-highlight {
+	color: #9F2642;
+}
+
+.cta-highlight strong {
+	font-style: italic;
+}
